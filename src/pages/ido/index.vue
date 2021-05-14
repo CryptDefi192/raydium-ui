@@ -44,7 +44,7 @@
             return {
               on: {
                 click: () => {
-                  $router.push(`/acceleraytor/${record.idoId}/`)
+                  $router.push(`/ido/${record.idoId}/`)
                 }
               }
             }
@@ -102,7 +102,7 @@ const RadioButton = Radio.Button
 
 @Component({
   head: {
-    title: 'Raydium AcceleRaytor'
+    title: 'Raydium IDO'
   },
 
   components: {
@@ -119,7 +119,7 @@ const RadioButton = Radio.Button
     }
   }
 })
-export default class AcceleRaytor extends Vue {
+export default class ido extends Vue {
   filter = {
     access: 'all',
     status: 'all',

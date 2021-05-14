@@ -304,7 +304,7 @@ const { TabPane } = Tabs
 
 @Component({
   head: {
-    title: 'Raydium AcceleRaytor'
+    title: 'Raydium IDO'
   },
 
   components: {
@@ -331,7 +331,7 @@ const { TabPane } = Tabs
     }
   }
 })
-export default class AcceleRaytor extends Vue {
+export default class IDO extends Vue {
   value = ''
   pool = {} as IdoPool
   purchasing = false
