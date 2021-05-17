@@ -106,6 +106,13 @@ export const TOKENS: Tokens = {
     decimals: 6,
     referrer: '8DwwDNagph8SdwMUdcXS5L9YAyutTyDJmK6cTKrmNFk3'
   },
+  VICT: {
+    symbol: 'VICT',
+    name: 'VICT',
+    mintAddress: 'HAYrkX8TT4xVwAxmfVRXsXtehniQBWc83y4bwrxTg6q6',
+    decimals: 9,
+    referrer: 'Cwc5isUVrkvNRzEdRuY5MmGkDpqMZpMKJG6vdukwa6Jp'
+  },
   WUSDT: {
     symbol: 'WUSDT',
     name: 'Wrapped USDT',
