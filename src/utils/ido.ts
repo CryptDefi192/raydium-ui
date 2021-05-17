@@ -125,25 +125,9 @@ export const IDO_POOLS: IdoPool[] = [
     snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
 
     isRayPool: false,
-    idoId: 'CMfy83XTuVGtWED9Aok3RGRmPbotUWic5JHPuRRLS6Zo',
+    idoId: 'CTFXzzij7rK7bKw2bxnK6X8EyxeR1GKAjRu5jk26rXRk',
     baseVault: '7M8u7TeKQt94tor7zbyx5XxrxrMW3Zk6eXXx7AbYT8aF',
     quoteVault: '5pXMRPTNaKjqJaRGNTbzPbAWUTJ4zfhcubSnZNspegkW'
-  },
-  {
-    base: { ...TOKENS.VICT },
-    quote: { ...TOKENS.USDC },
-
-    price: new TokenAmount(0.75, TOKENS.USDC.decimals, false),
-    raise: new TokenAmount(1000000, TOKENS.VICT.decimals, false),
-
-    version: 1,
-    programId: IDO_PROGRAM_ID,
-    snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
-
-    isRayPool: false,
-    idoId: 'AUSLbxn9UgqdP61wkeMrutdvp2uTfLBxzFBfmLiVqDPS',
-    baseVault: 'GqBCDDpBR3ju3inKHAkRTFzGLGFRo7mFVYCYNAbCzuaC',
-    quoteVault: 'FqLEDQnZozFV9WiF4j1cgE9UqetgWNEzLRVbUt5AJBX4'
   }
 ]
 
