@@ -90,11 +90,10 @@ export const actions = actionTree(
           // const key = keys[keyIndex]
           logger(info.account.data)
           const data = Buffer.from(info.account.data)
-          logger(data)
           const pool = idoPools[poolIndex]
 
           const decoded = IDO_POOL_INFO_LAYOUT.decode(data)
-
+          logger(JSON.stringify(decoded))
           pool.info = {
             startTime: decoded.startTime.toNumber(),
             endTime: decoded.endTime.toNumber(),
