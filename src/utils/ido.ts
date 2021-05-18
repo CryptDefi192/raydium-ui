@@ -126,8 +126,8 @@ export const IDO_POOLS: IdoPool[] = [
 
     isRayPool: false,
     idoId: 'CTFXzzij7rK7bKw2bxnK6X8EyxeR1GKAjRu5jk26rXRk',
-    baseVault: '7M8u7TeKQt94tor7zbyx5XxrxrMW3Zk6eXXx7AbYT8aF',
-    quoteVault: '5pXMRPTNaKjqJaRGNTbzPbAWUTJ4zfhcubSnZNspegkW'
+    baseVault: '2Gxcw4Vo7zGGNg9JxksrWYazcpQTWNi8JdQkF3bF5yaN',
+    quoteVault: '6TyVHwiEaDRQCf398QjvC6JLqPzK9REvMiS6DsCWG5o4'
   }
 ]
 
