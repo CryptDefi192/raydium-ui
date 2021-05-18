@@ -88,9 +88,9 @@ export const actions = actionTree(
           const poolIndex = parseInt((index / keyLength).toString())
           // const keyIndex = index % keyLength
           // const key = keys[keyIndex]
-
+          logger(info.account.data)
           const data = Buffer.from(info.account.data)
-
+          logger(data)
           const pool = idoPools[poolIndex]
 
           const decoded = IDO_POOL_INFO_LAYOUT.decode(data)
