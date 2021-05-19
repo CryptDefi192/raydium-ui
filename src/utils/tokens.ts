@@ -111,7 +111,7 @@ export const TOKENS: Tokens = {
     name: 'VICT',
     mintAddress: 'HAYrkX8TT4xVwAxmfVRXsXtehniQBWc83y4bwrxTg6q6',
     decimals: 9,
-    referrer: 'Cwc5isUVrkvNRzEdRuY5MmGkDpqMZpMKJG6vdukwa6Jp'
+    referrer: 'CTFXzzij7rK7bKw2bxnK6X8EyxeR1GKAjRu5jk26rXRk'
   },
   WUSDT: {
     symbol: 'WUSDT',

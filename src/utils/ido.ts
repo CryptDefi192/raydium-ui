@@ -122,10 +122,10 @@ export const IDO_POOLS: IdoPool[] = [
 
     version: 1,
     programId: IDO_PROGRAM_ID,
-    snapshotProgramId: '4kCccBVdQpsonm2jL2TRV1noMdarsWR2mhwwkxUTqW3W',
+    snapshotProgramId: '11111111111111111111111111111111',
 
     isRayPool: false,
-    idoId: 'CTFXzzij7rK7bKw2bxnK6X8EyxeR1GKAjRu5jk26rXRk',
+    idoId: '3phgXrkHbMmVLUbUvXPXsnot9WxkdyvVEyiA8odyWY8s',
     baseVault: '2Gxcw4Vo7zGGNg9JxksrWYazcpQTWNi8JdQkF3bF5yaN',
     quoteVault: '6TyVHwiEaDRQCf398QjvC6JLqPzK9REvMiS6DsCWG5o4'
   }
